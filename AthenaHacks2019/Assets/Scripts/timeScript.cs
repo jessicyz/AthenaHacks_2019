@@ -10,14 +10,14 @@ public class timeScript : MonoBehaviour
     [SerializeField] Text timeText;
     [SerializeField] Slider slider;
     // time in seconds not minutes
-    private float startTime = 6;
-    private bool stahp = true;
+    public float startTime = 6;
+    public bool stahp = true;
     private float currentTime = 0.0f;
-    private float currentTimeHours = 0.0f;
-    private float currentTimeSeconds = 0.0f;
+    public float currentTimeHours = 0.0f;
+    public float currentTimeSeconds = 0.0f;
 
 
-    private void Start()
+    public void Start()
     {
         slider.value = 0;
         currentTime = startTime;
@@ -41,7 +41,7 @@ public class timeScript : MonoBehaviour
             currentTimeHours = currentTime / 60;
         currentTimeSeconds = (currentTime%60)-1;
            //currentTimeSeconds -= Time.fixedDeltaTime;
-        timeText.text = currentTimeHours.ToString("0") + ":" + currentTimeSeconds.ToString("0");
+        timeText.text = currentTimeHours.ToString("00") + ":" + currentTimeSeconds.ToString("00");
     }
        
     }
