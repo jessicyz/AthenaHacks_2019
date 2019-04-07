@@ -18,11 +18,11 @@ public class Villager
     public Villager(){
 
     }
-    public Villager(string name_, string sprite_, string taskName_, float bonuss_){
+    public Villager(string name_, string sprite_, string taskName_, float bonus_){
         name = name_;
         sprite = sprite_;
         //rarity = rarity_;
         taskName = taskName_;
-        bonus = bonuss_;
+        bonus = bonus_;
     }
 }

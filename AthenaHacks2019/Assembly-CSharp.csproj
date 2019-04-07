@@ -53,9 +53,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\GachaList.cs" />
+     <Compile Include="Assets\Scripts\CustomTaskList.cs" />
+     <Compile Include="Assets\Scripts\RegularTaskList.cs" />
      <Compile Include="Assets\Scripts\Task.cs" />
      <Compile Include="Assets\Scripts\Villager.cs" />
+     <Compile Include="Assets\Scripts\VillagerList.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/Jess/Documents/Unity/AthenaHacks_2019/AthenaHacks2019/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

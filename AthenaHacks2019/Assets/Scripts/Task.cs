@@ -34,6 +34,28 @@ public class Task
 
     }
 
+
+    //for regular and custom tasks
+    //No cooldown and no limit on the number of times you've done something
+    public Task(string name, int type, int amount){
+        taskName = name;
+        taskType = type;
+        amountGained = amount;
+    }
+
+    //for regular tasks
+    //set cooldown and limit the number of times
+    public Task(string name, int amount, int times, int cooldown){    
+        //later add whatever class we're using to calculate time to this constructor.
+        //Temporarily an int for now
+        taskName = name;
+        taskType = 0;
+        amountGained = amount;
+        numTimesPerDay = times;
+        //cooldown
+    }
+
+
     //return true if it's not on cooldown and you haven't done the task more than the max
     public bool CheckCooldown(){
         if(taskType == 0 && numTimesToday > numTimesPerDay){
@@ -44,5 +66,7 @@ public class Task
 
         return true;
     }
+
+    
 
 }
