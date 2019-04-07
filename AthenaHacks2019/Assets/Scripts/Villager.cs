@@ -7,7 +7,7 @@ public class Villager
     //name of villager
     string name;
     //name of sprite. 
-    //gameObject.GetComponent<SpriteRenderer> ().sprite = Resources.Load("img1", typeof(Sprite)) as Sprite;
+    //we will use gameObject.GetComponent<SpriteRenderer> ().sprite = Resources.Load("img1", typeof(Sprite)) as Sprite; later
     string sprite;
     //how rare it is, for determining rates
     //int rarity;
