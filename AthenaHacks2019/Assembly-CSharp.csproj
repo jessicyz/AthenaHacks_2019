@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CustomTaskList.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\SwitchScreens.cs" />
      <Compile Include="Assets\Scripts\RegularTaskList.cs" />
      <Compile Include="Assets\Scripts\Task.cs" />
      <Compile Include="Assets\Scripts\timeScript.cs" />

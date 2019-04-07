@@ -10,17 +10,36 @@ public class timeScript : MonoBehaviour
     [SerializeField] Text timeText;
     [SerializeField] Slider slider;
     // time in seconds not minutes
-    public float startTime = 6;
-    public bool stahp = true;
-    private float currentTime = 0.0f;
-    public float currentTimeHours = 0.0f;
-    public float currentTimeSeconds = 0.0f;
+    public static float startTime = 6;
+    public static bool stahp = true;
+    private static float currentTime = startTime;
+    public static float currentTimeHours = 0.0f;
+    public static float currentTimeSeconds = 0.0f;
+    public static float value = 0;
+
+    // private static timeScript instance = null;
+	// public static timeScript Instance {
+	// 	get { return instance; }
+	// }
 
 
     public void Start()
     {
-        slider.value = 0;
-        currentTime = startTime;
+
+        // if (instance != null && instance != this) {
+		// 	Destroy(this.gameObject);
+		// 	return;
+		// } else {
+		// 	instance = this;
+        //     slider.value = 0;
+        //     currentTime = startTime;
+			
+		// }
+
+		// DontDestroyOnLoad(this.gameObject);
+        
+        // slider.value = 0;
+        //     currentTime = startTime;
     }
 
     // Update is called once per frame
@@ -35,7 +54,8 @@ public class timeScript : MonoBehaviour
 
         }
         if (stahp) {
-            slider.value += Time.deltaTime/startTime;
+            value += Time.deltaTime/startTime;
+            slider.value = value;
             //val += (float) Time.deltaTime;
         currentTime -= Time.deltaTime;
             currentTimeHours = currentTime / 60;

@@ -430,6 +430,106 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3685931350695655764, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931350695655764, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931350695655764, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931350695655764, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931350695655764, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931351025764827, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931351025764827, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931351025764827, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931351025764827, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931351025764827, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931350695108430, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931350695108430, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931350695108430, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931350695108430, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931350695108430, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931349471230038, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931349471230038, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931349471230038, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931349471230038, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685931349471230038, guid: 90102e9a4c3a44f9fa388fb926f5453b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90102e9a4c3a44f9fa388fb926f5453b, type: 3}
 --- !u!1001 &6810026925907961752
