@@ -10,7 +10,7 @@ public class timeScript : MonoBehaviour
     [SerializeField] Text timeText;
     [SerializeField] Slider slider;
     // time in seconds not minutes
-    public static float startTime = 6;
+    public static float startTime = 100;
     public static bool stahp = true;
     private static float currentTime = startTime;
     public static float currentTimeHours = 0.0f;
