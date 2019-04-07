@@ -14,7 +14,8 @@ public class Task
     //amount you gain from completing the task
     int amountGained;
 
-    //number of times you can do a task a day
+    //number of times you can do a task a day. 
+    //Custom tasks can be done as many times as the user wants
     int numTimesPerDay;
     
     //number of time you've done the task today
@@ -27,6 +28,7 @@ public class Task
     // num minutes/seconds
 
     //amount of time cooldown (to prevent people from brushing their teeth and immediately brushing again)
+    //Custom tasks have no cooldown
     //num minutes/seconds
     public Task(){
 
@@ -34,12 +36,12 @@ public class Task
 
     //return true if it's not on cooldown and you haven't done the task more than the max
     public bool CheckCooldown(){
-        if(numTimesToday > numTimesPerDay){
+        if(taskType == 0 && numTimesToday > numTimesPerDay){
             return false;
         }
         //if the time between the last time you did a task and the current time is < cooldown time, 
         //return false
-        
+
         return true;
     }
 
